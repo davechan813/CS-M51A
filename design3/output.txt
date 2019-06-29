@@ -1,0 +1,758 @@
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0010
+!!!!!!!!MOVES[i][3:0]: 0010
+* Status: Turn @ line #:           0 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	000
+	100
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:           1 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	010
+	100	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0001
+!!!!!!!!MOVES[i][3:0]: 0001
+* Status: Turn @ line #:           2 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	000
+	010
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	010
+	110	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0010
+!!!!!!!!MOVES[i][3:0]: 0010
+* Status: Turn @ line #:           3 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	100
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	000
+	000	010
+	110	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1101
+!!!!!!!!MOVES[i][3:0]: 1101
+* Status: wait cycles
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0000
+!!!!!!!!MOVES[i][3:0]: 0000
+* Status: Turn @ line #:           5 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	001
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	010
+	110	001
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:           6 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	000
+	000	010
+	110	001
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0101
+!!!!!!!!MOVES[i][3:0]: 0101
+* Status: Turn @ line #:           7 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	100
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	100	010
+	110	001
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1000
+!!!!!!!!MOVES[i][3:0]: 1000
+* Status: Turn @ line #:           8 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	100
+	000
+	000
+* Status: Result: 0010, GameState:O
+*	X Pos:	O Pos:
+	000	100
+	100	010
+	110	001
+
+* Status: correct placement
+* Status: correct game status, O
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1110
+!!!!!!!!MOVES[i][3:0]: 1110
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:          11 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0110
+!!!!!!!!MOVES[i][3:0]: 0110
+* Status: Turn @ line #:          12 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	001
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	001
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0110
+!!!!!!!!MOVES[i][3:0]: 0110
+* Status: Turn @ line #:          13 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	001
+	000
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	001
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1000
+!!!!!!!!MOVES[i][3:0]: 1000
+* Status: Turn @ line #:          14 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	100
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	100	001
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0011
+!!!!!!!!MOVES[i][3:0]: 0011
+* Status: Turn @ line #:          15 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	001
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	100	001
+	010	001
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:          16 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	100	001
+	010	001
+	000	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0101
+!!!!!!!!MOVES[i][3:0]: 0101
+* Status: Turn @ line #:          17 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	100
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	100	001
+	110	001
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0001
+!!!!!!!!MOVES[i][3:0]: 0001
+* Status: Turn @ line #:          18 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	010
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	100	001
+	110	001
+	000	010
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0010
+!!!!!!!!MOVES[i][3:0]: 0010
+* Status: Turn @ line #:          19 Reset: 0, Turn X,O: 10 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	100
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	100	001
+	110	001
+	000	010
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0010
+!!!!!!!!MOVES[i][3:0]: 0010
+* Status: Turn @ line #:          20 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	000
+	100
+* Status: Result: 0001, GameState:X
+*	X Pos:	O Pos:
+	100	001
+	110	001
+	100	010
+
+* Status: correct placement
+* Status: correct game status, X
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1110
+!!!!!!!!MOVES[i][3:0]: 1110
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:          23 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1000
+!!!!!!!!MOVES[i][3:0]: 1000
+* Status: Turn @ line #:          24 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	100
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	100
+	010	000
+	000	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0010
+!!!!!!!!MOVES[i][3:0]: 0010
+* Status: Turn @ line #:          25 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	000
+	100
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	100
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0011
+!!!!!!!!MOVES[i][3:0]: 0011
+* Status: Turn @ line #:          26 Reset: 0, Turn X,O: 01 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	001
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	100
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0110
+!!!!!!!!MOVES[i][3:0]: 0110
+* Status: Turn @ line #:          27 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	001
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	101
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0001
+!!!!!!!!MOVES[i][3:0]: 0001
+* Status: Turn @ line #:          28 Reset: 0, Turn X,O: 10 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	010
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	101
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1000
+!!!!!!!!MOVES[i][3:0]: 1000
+* Status: Turn @ line #:          29 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	100
+	000
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	101
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1101
+!!!!!!!!MOVES[i][3:0]: 1101
+* Status: wait cycles
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0100
+!!!!!!!!MOVES[i][3:0]: 0100
+* Status: Turn @ line #:          31 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	010
+	000
+* Status: Result: 1000, GameState:E
+*	X Pos:	O Pos:
+	000	101
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, E
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0111
+!!!!!!!!MOVES[i][3:0]: 0111
+* Status: Turn @ line #:          32 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	010
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	010	101
+	010	000
+	100	000
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0001
+!!!!!!!!MOVES[i][3:0]: 0001
+* Status: Turn @ line #:          33 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	000
+	010
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	010	101
+	010	000
+	100	010
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0000
+!!!!!!!!MOVES[i][3:0]: 0000
+* Status: Turn @ line #:          34 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	000
+	001
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	010	101
+	010	000
+	101	010
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0101
+!!!!!!!!MOVES[i][3:0]: 0101
+* Status: Turn @ line #:          35 Reset: 0, Turn X,O: 01 Button Pushed X,O :01
+*	Move Pos: 
+	000
+	100
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	010	101
+	010	100
+	101	010
+
+* Status: correct placement
+* Status: correct game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 0011
+!!!!!!!!MOVES[i][3:0]: 0011
+* Status: Turn @ line #:          36 Reset: 0, Turn X,O: 10 Button Pushed X,O :10
+*	Move Pos: 
+	000
+	001
+	000
+* Status: Result: 0100, GameState:C
+*	X Pos:	O Pos:
+	010	101
+	011	100
+	101	010
+
+* Status: correct placement
+* Status: correct game status, C
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: 1111
+!!!!!!!!MOVES[i][3:0]: 1111
+*
+*
+*
+* Command: RESET GAME
+*
+*
+*
+
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: xxxx
+!!!!!!!!MOVES[i][3:0]: xxxx
+* Status: Turn @ line #:          47 Reset: 0, Turn X,O: 10 Button Pushed X,O :00
+*	Move Pos: 
+	000
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	000
+	000	000
+
+* Status: INCORRECT game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: xxxx
+!!!!!!!!MOVES[i][3:0]: xxxx
+* Status: Turn @ line #:          48 Reset: 0, Turn X,O: 10 Button Pushed X,O :00
+*	Move Pos: 
+	000
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	000
+	000	000
+
+* Status: INCORRECT game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: xxxx
+!!!!!!!!MOVES[i][3:0]: xxxx
+* Status: Turn @ line #:          49 Reset: 0, Turn X,O: 10 Button Pushed X,O :00
+*	Move Pos: 
+	000
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	000
+	000	000
+
+* Status: INCORRECT game status, n
+
+=========== New Turn ===========
+!!!!!!!!sel_pos_binary: xxxx
+!!!!!!!!MOVES[i][3:0]: xxxx
+* Status: Turn @ line #:          50 Reset: 0, Turn X,O: 10 Button Pushed X,O :00
+*	Move Pos: 
+	000
+	000
+	000
+* Status: Result: 0000, GameState:n
+*	X Pos:	O Pos:
+	000	000
+	000	000
+	000	000
+
+* Status: INCORRECT game status, n
+*
+*
+* Status: DONE
+*
+*
